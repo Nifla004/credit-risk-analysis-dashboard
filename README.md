@@ -1,79 +1,149 @@
-# credit-risk-analysis-dashboard
-Excel and powerbi based credit risk analysis using KPIs and dashboards
+# Credit Risk Analysis – End-to-End Financial Data Analytics Project
 
-# Credit Risk Insights Dashboard (Excel + Power BI)
+## 📌 Project Summary
+This project is a comprehensive **Credit Risk Analysis** built using **Excel, Power BI, and Python (Pandas)**.  
+It simulates a real-world banking analytics workflow where customer loan data is analyzed to assess **portfolio health, repayment behavior, and default risk**.
 
-## 📊 Project Overview
-This project analyzes loan default behavior using historical loan data.
-The goal is to identify credit risk patterns and visualize key insights
-using Excel and Power BI dashboards.
-
-This project demonstrates practical skills in:
-- Data analysis
-- KPI calculation
-- Dashboard design
-- Business-focused insights
+The project focuses on **data-driven decision-making**, combining dashboarding and exploratory data analysis to extract actionable business insights commonly required in **banking, fintech, and consulting roles**.
 
 ---
 
-## 🛠 Tools & Technologies
-- Microsoft Excel (KPIs, Pivot Tables, Calculations)
-- Power BI (Interactive dashboards, slicers, visuals)
-- GitHub (Project documentation & version control)
+## 🎯 Business Problem
+Banks and financial institutions face constant challenges in:
+- Assessing loan default risk
+- Monitoring repayment performance
+- Understanding customer risk segments
+- Making informed credit decisions
+
+This project answers key business questions such as:
+- What proportion of loans are fully paid vs charged off?
+- Which customer attributes influence loan repayment?
+- How does income, employment, and credit behavior relate to default risk?
+- How can dashboards and EDA support credit risk monitoring?
 
 ---
 
-## 📌 Key KPIs Calculated (Excel)
-1. Total Loans Issued  
-2. Total Defaulted Loans  
-3. Overall Default Rate (%)  
-4. Default Rate by Credit Score Group  
-5. Default Rate by Loan Term  
+## 📊 Dataset Overview
+The dataset contains customer-level loan records with features such as:
+- Loan Amount
+- Annual Income
+- Employment Length
+- Credit Score
+- Loan Status (Fully Paid / Charged Off)
 
-All KPIs were calculated in Excel using formulas and pivot tables.
+Both **training and testing datasets** were used to ensure realistic analysis and validation.
 
 ---
 
-## 📈 Dashboards
+## 🧰 Tools & Technologies Used
+- **Microsoft Excel**
+  - Data cleaning
+  - Pivot tables
+  - KPI calculations
+  - Dashboard creation
+- **Power BI**
+  - Interactive visualizations
+  - Slicers and filters
+  - KPI card visuals
+- **Python (Pandas, Matplotlib, Seaborn)**
+  - Data cleaning
+  - Exploratory Data Analysis (EDA)
+- **Google Colab**
+  - Notebook development
+- **GitHub**
+  - Version control and project documentation
 
-### 🔹 Excel Dashboard
-- KPI summary cards
-- Loan status distribution
-- Default analysis by term and credit score
+---
 
-### 🔹 Power BI Dashboard
-- Interactive visuals recreated from Excel
-- Slicers for:
-  - Loan Term
-  - Credit Score
-- Dynamic filtering for deeper insights
+## 📈 Excel Analysis
+### Key Activities
+- Cleaned and standardized raw loan data
+- Handled missing and inconsistent values
+- Created pivot tables for:
+  - Loan status distribution
+  - Customer segmentation
+- Designed KPIs:
+  - Total Loans
+  - Fully Paid Loans
+  - Charged Off Loans
+- Built an Excel dashboard for high-level credit risk insights
 
-> Power BI dashboard is documented using screenshots for quick preview.
-> The full interactive version is available in the `.pbix` file.
+### Outcome
+Excel serves as the **foundation layer** for data understanding and KPI calculation.
+
+---
+
+## 📊 Power BI Dashboard
+### Key Activities
+- Imported cleaned dataset into Power BI
+- Built interactive visuals including:
+  - Column charts for loan distribution
+  - Pie charts for loan status proportions
+  - KPI card visuals for key metrics
+  - Slicers for dynamic filtering
+- Designed a clean, business-friendly dashboard layout
+
+### Important Note
+KPIs were computed in Excel and visualized in Power BI.  
+This mirrors **real industry workflows**, where Excel is often used for calculations and Power BI for visualization.
+
+---
+
+## 🐍 Python Exploratory Data Analysis (EDA)
+### Key Activities
+- Loaded dataset using Pandas
+- Data cleaning:
+  - Missing value handling
+  - Data type corrections
+- Performed:
+  - Groupby analysis
+  - Feature understanding
+  - Outlier detection
+  - Univariate and bivariate analysis
+  - Distribution and correlation analysis
+
+### Outcome
+Python EDA provided **deeper statistical insights** beyond dashboards, helping identify risk-driving variables.
 
 ---
 
 ## 🔍 Key Insights
-- Higher default rates are observed in lower credit score groups
-- Longer loan terms show increased risk of default
-- Credit score is a strong indicator of loan repayment behavior
+- Majority of loans are fully paid, indicating portfolio stability
+- Certain income and employment segments show higher default risk
+- Credit-related features significantly influence loan outcomes
+- Combining dashboards with EDA enables stronger risk assessment
 
 ---
 
-## 📂 Repository Contents
-- `/excel_dashboard` → Excel analysis & KPI calculations  
-- `/powerbi_dashboard` → Power BI interactive dashboard  
-- `/screenshots` → Dashboard previews  
+## 💼 Skills Demonstrated
+- Financial data analysis
+- Credit risk understanding
+- Excel KPI and dashboard creation
+- Power BI visualization and interactivity
+- Python data cleaning and EDA
+- Business-focused insight generation
+- End-to-end analytics workflow
 
 ---
 
-## 🚀 Future Improvements
-- Add DAX-based KPIs directly in Power BI
-- Include time-based trend analysis
-- Automate data refresh using Power BI Service
+## 🚀 Future Enhancements
+- Add SQL-based analysis on loan databases
+- Build a machine learning model to predict loan defaults
+- Publish Power BI dashboard online
+- Automate reporting using Python
 
 ---
 
-## 👩‍💻 Author
-Nifla Nalakath  
-Aspiring Data Analyst | SQL | Excel | Power BI | Python
+## 👤 Author
+**Nifla Nalakath**  
+Aspiring Data Analyst | Business Analytics  
+Skills: Excel | Power BI | Python | Financial Analytics
+
+---
+
+## ✅ Final Note
+This repository represents a **complete, job-ready credit risk analytics project** suitable for:
+- Data Analyst roles
+- Business Analyst roles
+- Banking & Financial Services interviews
+- Consulting analytics case discussions
